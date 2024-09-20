@@ -1,0 +1,109 @@
+.filter-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #e6e6e6;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.categories {
+  margin-bottom: 20px;
+}
+
+.price-range input {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-range-input label {
+  margin-bottom: 10px;
+}
+
+.price-range-input input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.price-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.price-inputs input {
+  width: 45%;
+  padding: 5px;
+}
+
+.get-offer-section {
+  background-color: #27ae60;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 10px;  
+  color: white;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.get-offer-section h3 {
+  font-size: 18px;  
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.get-offer-section p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.get-offer-section button {
+  padding: 12px 20px;
+  background-color: white;
+  color: #27ae60;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.get-offer-section button:hover {
+  background-color: #1e8449;  
+  color: white;
+}
+
+.set-price-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}

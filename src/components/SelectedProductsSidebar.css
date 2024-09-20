@@ -1,0 +1,38 @@
+.selected-products-sidebar {
+    width: 250px; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    /*border-left: 1px solid #e0e0e0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);*/
+  }
+  
+  .selected-products-sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .selected-products-sidebar p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .selected-products-sidebar .product-card {
+    margin-bottom: 20px;
+  }
+  .remove-from-cart-button{
+    background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  }
+
+  .remove-from-cart-button:hover{
+    background-color: #218838;
+  }
